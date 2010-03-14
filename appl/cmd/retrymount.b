@@ -6,7 +6,7 @@ include "sys.m";
 include "draw.m";
 include "arg.m";
 	arg: Arg;
-include "../../../../contrib/logger/module/logger.m";
+include "../../../logger/module/logger.m";
 	logger: Logger;
 	log, ERR, WARN, INFO, DEBUG, DUMP: import logger;
 include "sh.m";

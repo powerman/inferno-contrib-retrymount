@@ -10,7 +10,7 @@ SYSMODULES=\
 	sh.m\
 
 MODULES=\
-	../../../../contrib/logger/module/logger.m\
+	../../../logger/module/logger.m\
 
 DISBIN=../../dis
 
