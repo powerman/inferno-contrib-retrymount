@@ -8,7 +8,7 @@ include "arg.m";
 	arg: Arg;
 include "../../../logger/module/logger.m";
 	logger: Logger;
-	log, ERR, WARN, INFO, DEBUG, DUMP: import logger;
+	log, ERR, WARN, NOTICE, INFO, DEBUG: import logger;
 include "sh.m";
 
 RetryMount: module
