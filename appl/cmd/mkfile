@@ -12,7 +12,7 @@ SYSMODULES=\
 MODULES=\
 	../../../logger/module/logger.m\
 
-DISBIN=../../dis
+DISBIN=../../dis/cmd
 
 <$ROOT/mkfiles/mkdis
 
