@@ -12,17 +12,28 @@ I/O error also can retry access to files on mount point until success.
 
 # Install
 
-Make directory with this app available in /opt/powerman/retrymount/, for ex.:
+Make directory with this app available in /opt/powerman/retrymount/.
+
+Install system-wide:
 
 ```
 # git clone https://github.com/powerman/inferno-contrib-retrymount.git $INFERNO_ROOT/opt/powerman/retrymount
 ```
 
-or in user home directory:
+or in your home directory:
 
 ```
 $ git clone https://github.com/powerman/inferno-contrib-retrymount.git $INFERNO_USER_HOME/opt/powerman/retrymount
 $ emu
+; bind opt /opt
+```
+
+or locally for your project:
+
+```
+$ git clone https://github.com/powerman/inferno-contrib-retrymount.git $YOUR_PROJECT_DIR/opt/powerman/retrymount
+$ emu
+; cd $YOUR_PROJECT_DIR_INSIDE_EMU
 ; bind opt /opt
 ```
 
